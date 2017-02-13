@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <g transform="translate(0,-16)">
+  <g stroke="#000" fill="none">
+   <path d="m0 19h16" stroke-width="2"/>
+   <path d="m0 24h16" stroke-width="2"/>
+   <path d="m0 29h16" stroke-width="2"/>
+  </g>
+  <rect rx=".17419" ry=".055548" height="3" width="7" y="17.5" x="2" fill="#fff"/>
+  <rect rx=".17419" ry=".055548" height="3" width="7" y="27.5" x="6" fill="#fff"/>
+ </g>
+</svg>

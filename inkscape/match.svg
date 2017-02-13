@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g stroke="#000">
+  <circle fill-opacity="0" cx="4" cy="4" r="3.2136" stroke-width="1.5728"/>
+  <ellipse fill-opacity="0" rx="3.2072" ry="3.2072" cy="4" cx="28" stroke-width="1.5857"/>
+  <path d="m7 4h18" stroke-width="3.976" fill="none"/>
+  <g fill-opacity="0">
+   <ellipse rx="3.1695" ry="3.2196" cy="28" cx="4.0501" stroke-width="1.561"/>
+   <ellipse rx="3.2136" ry="3.2136" cy="16" cx="28" stroke-width="1.5728"/>
+   <ellipse rx="3.2582" ry="3.2088" cy="16" cx="4" stroke-width="1.5825"/>
+   <ellipse rx="3.1747" ry="3.2179" cy="28" cx="27.957" stroke-width="1.5643"/>
+  </g>
+  <path d="m6.8134 26.294c18.407-8.663 18.407-8.663 18.407-8.663" stroke-width="3.7892" fill="none"/>
+ </g>
+</svg>

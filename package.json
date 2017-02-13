@@ -1,0 +1,10 @@
+{
+  "name": "claroline-icons",
+  "version": "1.0.0",
+  "description": "Icon set toolchain for the Claroline platform",
+  "repository": "http://github.com/claroline/icons",
+  "license": "ISC",
+  "dependencies": {
+    "svgo": "^0.7.2"
+  }
+}
