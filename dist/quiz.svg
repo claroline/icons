@@ -32,6 +32,12 @@
                 <path d="M1.04 31.502L10 23l4 4 9-10 8.507 6.719v7.78z" fill-rule="evenodd" stroke-width=".994"/>
             </g>
         </symbol>
+        <symbol viewBox="0 0 16 16" id="icon-quiz-keyword">
+            <g stroke="#000" fill="none" stroke-width="2">
+                <path d="M0 3h10M0 8h8M0 13h6"/>
+            </g>
+            <path d="M11.892 3.724a3.06 3.06 0 0 0-1.646 4.818L7.67 12.52 8 13.927l1.433-.189-.371-.997 1.093-.004-.398-.997 1.056-.01 1.248-2.065a3.026 3.026 0 0 0 1.384-.033 3.06 3.06 0 1 0-1.555-5.916zm2.324 1.485a1.045 1.045 0 1 1-1.275-.751 1.045 1.045 0 0 1 1.275.751z" class="cls-2"/>
+        </symbol>
         <symbol viewBox="0 0 32 32" id="icon-quiz-match">
             <g stroke="#000" fill="none">
                 <circle cx="4" cy="4" r="3.214" stroke-width="1.573"/>

@@ -5,7 +5,9 @@
   "repository": "http://github.com/claroline/icons",
   "license": "ISC",
   "scripts": {
-    "svgo": "node make svgo"
+    "svgo": "node make svgo",
+    "defs": "node make defs",
+    "build": "node make build"
   },
   "dependencies": {
     "shelljs": "^0.7.6",
