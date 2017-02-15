@@ -2,6 +2,10 @@ require('shelljs/make')
 
 const toDefs = require('./src/toDefs')
 
+target.clean = () => {
+  rm('-rf', `${__dirname}/optimized/*`, `${__dirname}/dist/*`)
+}
+
 target.svgo = () => {
   ls('inkscape').forEach(dir => {
     exec(`./node_modules/.bin/svgo --pretty -f inkscape/${dir} -o optimized/${dir}`)
@@ -17,7 +21,18 @@ target.defs = () => {
   })
 }
 
+target.doc = () => {
+  exec('node ./src/doc.js')
+}
+
 target.build = () => {
+  target.clean()
   target.svgo()
   target.defs()
+  target.doc()
+}
+
+target.serve = () => {
+  target.build()
+  exec('node src/watch')
 }

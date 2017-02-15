@@ -1,0 +1,16 @@
+<html>
+<body>
+  <h1>Icons</h1>
+
+  {{~Object.keys(it.meta) :domain}}
+    <h2>{{=domain}}</h2>
+    <ul>
+      {{~it.meta[domain] :icon}}
+        <li>
+          {{=icon}}
+          <a href="./icons/{{=domain}}-{{=icon}}.html">Link</a>
+        </li>
+      {{~}}
+    </ul>
+  {{~}}
+</body>
