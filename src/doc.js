@@ -24,7 +24,7 @@ Object.keys(meta).forEach(domain => {
   meta[domain].forEach(icon => {
     const tgt = `${tgtDir}/icons/${domain}-${icon}.html`
     console.log('Generating icon file', tgt)
-    const content = templates.icon({name: icon})
+    const content = templates.icon({icon, domain})
     fs.writeFileSync(tgt, content)
   })
 })

@@ -1,1 +1,36 @@
-<h1>Icon {{=it.name}}</h1>
+<html>
+<head>
+  <link rel="stylesheet" href="../bootstrap.min.css"/>
+  <link rel="stylesheet" href="../style.css"/>
+</head>
+<body>
+  <header>
+    <h1>
+      <img class="logo" src="../logo-claro.png"/>
+      <a href="..">Icons</a>
+    </h1>
+  </header>
+  <section>
+    <h1 class="icon-title">{{=it.domain}}-{{=it.icon}}</h1>
+    <div class="icon-box">
+      <svg class="icon x192">
+        <use xlink:href="../dist/{{=it.domain}}.svg#icon-{{=it.domain}}-{{=it.icon}}"/>
+      </svg>
+      <hr>
+      <svg class="icon x128">
+        <use xlink:href="../dist/{{=it.domain}}.svg#icon-{{=it.domain}}-{{=it.icon}}"/>
+      </svg>
+      <svg class="icon x64">
+        <use xlink:href="../dist/{{=it.domain}}.svg#icon-{{=it.domain}}-{{=it.icon}}"/>
+      </svg>
+      <svg class="icon x32">
+        <use xlink:href="../dist/{{=it.domain}}.svg#icon-{{=it.domain}}-{{=it.icon}}"/>
+      </svg>
+      <svg class="icon x16">
+        <use xlink:href="../dist/{{=it.domain}}.svg#icon-{{=it.domain}}-{{=it.icon}}"/>
+      </svg>
+      <hr>
+    </div>
+  </section>
+</body>
+</html>

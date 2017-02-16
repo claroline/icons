@@ -1,0 +1,108 @@
+body {
+  width: 500px;
+  margin: auto;
+  background-color: #dde;
+  font-variant: small-caps;
+}
+
+header {
+  display: block;
+  margin: 0 0 40px 0;
+  padding: 12px;
+  border-bottom: solid 1px #999;
+}
+
+header .logo {
+  width: 140px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header h1 a {
+  font-size: 32px;
+  color: #66f;
+  text-decoration: none;
+}
+
+header h1 a:hover {
+  text-decoration: none;
+}
+
+.icons li {
+  list-style: none;
+  display: inline-block;
+}
+
+.icons a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  height: 116px;
+  padding-bottom: 8px;
+  margin: 3px;
+  border: solid 1px #999;
+  border-radius: 6px;
+  text-decoration: none;
+  background-color: #fff;
+  transition: border-color .3s, background-color .3s;
+}
+
+.icons a:hover {
+  background-color: #bbf;
+  border: solid 1px #666;
+  box-shadow: 0 3px 6px #aaf;
+}
+
+.icons svg {
+  display: block;
+  width: 32px;
+}
+
+.icon-title {
+  color: #66f;
+}
+
+.icon-box {
+  margin-top: 32px;
+  padding: 12px;
+  background-color: #fff;
+  border: solid 1px #999;
+  border-radius: 6px;
+}
+
+.icon-box hr {
+  border-top: solid 1px #bbb;
+}
+
+svg.icon {
+  margin: 24px;
+}
+
+svg.icon.x16 {
+  width: 16px;
+  height: 16px;
+}
+
+svg.icon.x32 {
+  width: 32px;
+  height: 32px;
+}
+
+svg.icon.x64 {
+  width: 64px;
+  height: 64px;
+}
+
+svg.icon.x128 {
+  width: 128px;
+  height: 128px;
+}
+
+svg.icon.x192 {
+  display: block;
+  width: 192px;
+  height: 192px;
+}

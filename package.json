@@ -9,6 +9,7 @@
     "serve": "node make serve"
   },
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "browser-sync": "^2.18.8",
     "dot": "^1.1.1",
     "shelljs": "^0.7.6",

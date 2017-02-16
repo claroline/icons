@@ -6,6 +6,11 @@ target.clean = () => {
   rm('-rf', `${__dirname}/optimized/*`, `${__dirname}/dist/*`)
 }
 
+target.assets = () => {
+  cp('node_modules/bootstrap/dist/css/bootstrap.min.css', './doc/bootstrap.min.css')
+  cp('-r', './dist', './doc')
+}
+
 target.svgo = () => {
   ls('inkscape').forEach(dir => {
     exec(`./node_modules/.bin/svgo --pretty -f inkscape/${dir} -o optimized/${dir}`)
@@ -29,6 +34,7 @@ target.build = () => {
   target.clean()
   target.svgo()
   target.defs()
+  target.assets()
   target.doc()
 }
 

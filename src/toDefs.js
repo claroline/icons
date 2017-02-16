@@ -4,9 +4,7 @@ const path = require('path')
 const svgToJs = require('svgo/lib/svgo/svg2js')
 const jsToSvg = require('svgo/lib/svgo/js2svg')
 
-const template = symbols => `
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+const template = symbols =>`
 <svg xmlns="http://www.w3.org/2000/svg">
     <defs>
 ${symbols}
