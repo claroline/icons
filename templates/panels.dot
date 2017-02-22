@@ -1,0 +1,30 @@
+<html>
+<head>
+  <link rel="stylesheet" href="bootstrap.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>
+      <img class="logo" src="../logo-claro.png"/>
+      <a href="..">Icons</a>
+    </h1>
+  </header>
+  <section class="example panels">
+    {{~Object.keys(it.meta) :domain}}
+      {{~it.meta[domain] :icon}}
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">
+              <svg class="icon x16">
+                <use xlink:href="dist/{{=domain}}.svg#icon-{{=domain}}-{{=icon}}"/>
+              </svg>
+              <span>Lorem ispum ({{=domain}}-{{=icon}})</span>
+            </h3>
+          </div>
+        </div>
+      {{~}}
+    {{~}}
+  </section>
+</body>
+</html>

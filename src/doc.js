@@ -31,5 +31,12 @@ Object.keys(meta).forEach(domain => {
 
 // generate an icon index
 console.log('Generating index')
-const tgt = `${tgtDir}/index.html`
-fs.writeFileSync(tgt, templates.index({meta}))
+fs.writeFileSync(`${tgtDir}/index.html`, templates.index({meta}))
+
+// generate panels example
+console.log('Generating panels example')
+fs.writeFileSync(`${tgtDir}/panels.html`, templates.panels({meta}))
+
+// generate cards example
+console.log('Generating cards example')
+fs.writeFileSync(`${tgtDir}/cards.html`, templates.cards({meta}))

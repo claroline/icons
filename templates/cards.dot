@@ -1,0 +1,39 @@
+<html>
+<head>
+  <link rel="stylesheet" href="bootstrap.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>
+      <img class="logo" src="../logo-claro.png"/>
+      <a href="..">Icons</a>
+    </h1>
+  </header>
+  <section class="example cards">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Lorem ipsum</h3>
+      </div>
+      <div class="panel-body">
+        {{~Object.keys(it.meta) :domain}}
+          {{~it.meta[domain] :icon}}
+            <div class="card">
+              <div class="icon-container">
+                <svg class="icon x48">
+                  <use xlink:href="dist/{{=domain}}.svg#icon-{{=domain}}-{{=icon}}"/>
+                </svg>
+              </div>
+              <div class="text">
+                <h3>Lorem ispum ({{=domain}}-{{=icon}})</h3>
+                <p>Blah</p>
+              </div>
+            </div>
+            <hr>
+          {{~}}
+        {{~}}
+      </div>
+    </div>
+  </section>
+</body>
+</html>

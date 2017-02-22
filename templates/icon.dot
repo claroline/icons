@@ -29,7 +29,6 @@
       <svg class="icon x16">
         <use xlink:href="../dist/{{=it.domain}}.svg#icon-{{=it.domain}}-{{=it.icon}}"/>
       </svg>
-      <hr>
     </div>
   </section>
 </body>

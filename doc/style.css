@@ -1,6 +1,7 @@
 body {
   width: 500px;
   margin: auto;
+  padding-bottom: 40px;
   background-color: #dde;
   font-variant: small-caps;
 }
@@ -77,7 +78,7 @@ header h1 a:hover {
   border-top: solid 1px #bbb;
 }
 
-svg.icon {
+.icon-box svg.icon {
   margin: 24px;
 }
 
@@ -89,6 +90,11 @@ svg.icon.x16 {
 svg.icon.x32 {
   width: 32px;
   height: 32px;
+}
+
+svg.icon.x48 {
+  width: 48px;
+  height: 48px;
 }
 
 svg.icon.x64 {
@@ -105,4 +111,36 @@ svg.icon.x192 {
   display: block;
   width: 192px;
   height: 192px;
+}
+
+.example {
+  background-color: white;
+  padding: 16px;
+  border-radius: 3px;
+  font-variant: normal;
+}
+
+.example.panels .panel {
+  margin-bottom: 0;
+}
+
+.example.panels .icon {
+  margin-right: 12px
+}
+
+.example.cards .card {
+  display: flex;
+}
+
+.example.cards .icon-container {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  margin-right: 24px;
+  border: solid 2px #555;
+  border-radius: 16px;
+  opacity: 0.6;
 }
