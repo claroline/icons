@@ -7,8 +7,8 @@ target.clean = () => {
 }
 
 target.assets = () => {
-  cp('node_modules/bootstrap/dist/css/bootstrap.min.css', './doc/bootstrap.min.css')
-  cp('-r', './dist', './doc')
+  cp('node_modules/bootstrap/dist/css/bootstrap.min.css', './docs/bootstrap.min.css')
+  cp('-r', './dist', './docs')
 }
 
 target.svgo = () => {

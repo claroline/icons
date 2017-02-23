@@ -9,5 +9,5 @@ bs.watch('inkscape/**/*.svg').on('change', () => {
 })
 
 bs.init({
-  server: './doc'
+  server: './docs'
 })

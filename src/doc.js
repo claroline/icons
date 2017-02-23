@@ -4,7 +4,7 @@ const dot = require('dot')
 
 const srcDir = path.resolve(__dirname, '../inkscape')
 const tplDir = path.resolve(__dirname, '../templates')
-const tgtDir = path.resolve(__dirname, '../doc')
+const tgtDir = path.resolve(__dirname, '../docs')
 
 dot.templateSettings.strip = false
 
