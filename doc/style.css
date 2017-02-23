@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  display: block;
+  position: relative;
   margin: 0 0 40px 0;
   padding: 12px;
   border-bottom: solid 1px #999;
@@ -28,6 +28,17 @@ header h1 a {
 }
 
 header h1 a:hover {
+  text-decoration: none;
+}
+
+header nav {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  color: #66f;
+}
+
+header nav a:hover {
   text-decoration: none;
 }
 
@@ -137,6 +148,7 @@ svg.icon.x192 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
   width: 70px;
   height: 70px;
   margin-right: 24px;
