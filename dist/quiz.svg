@@ -11,13 +11,11 @@
                 <ellipse rx="1.611" ry="1.599" cy="28.901" cx="3" stroke-width=".785"/>
             </g>
         </symbol>
-        <symbol viewBox="0 0 16 16" id="icon-quiz-cloze">
-            <g transform="translate(0 -16)">
-                <g stroke="#000" fill="none" stroke-width="2">
-                    <path d="M0 19h16M0 24h16M0 29h16"/>
-                </g>
-                <rect rx=".174" ry=".056" height="3" width="7" y="17.5" x="2" fill="#fff"/>
-                <rect rx=".174" ry=".056" height="3" width="7" y="27.5" x="6" fill="#fff"/>
+        <symbol viewBox="0 0 32 32" width="32" height="32" id="icon-quiz-cloze">
+            <g color="#000" stroke="#000" stroke-linecap="square">
+                <path style="isolation:auto;mix-blend-mode:normal" overflow="visible" d="M.5 4.5h3v3h-3zM18.5 4.5h13v3h-13zM28.5 24.5h3v3h-3zM.5 24.5h13v3H.5zM.5 14.5h31v3H.5z"/>
+                <rect style="isolation:auto;mix-blend-mode:normal" width="12" height="6" x="5" y="3" ry="1" overflow="visible" fill="none" stroke-width="2"/>
+                <rect rx="1" style="isolation:auto;mix-blend-mode:normal" width="12" height="6" x="15" y="23" ry="1" overflow="visible" fill="none" stroke-width="2"/>
             </g>
         </symbol>
         <symbol viewBox="0 0 32 32" id="icon-quiz-graphic">
