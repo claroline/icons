@@ -13,7 +13,11 @@
         </symbol>
         <symbol viewBox="0 0 32 32" width="32" height="32" id="icon-quiz-cloze">
             <g color="#000" stroke="#000" stroke-linecap="square">
-                <path style="isolation:auto;mix-blend-mode:normal" overflow="visible" d="M.5 4.5h3v3h-3zM18.5 4.5h13v3h-13zM28.5 24.5h3v3h-3zM.5 24.5h13v3H.5zM.5 14.5h31v3H.5z"/>
+                <rect style="isolation:auto;mix-blend-mode:normal" width="3" height="3" x=".5" y="4.5" overflow="visible"/>
+                <rect style="isolation:auto;mix-blend-mode:normal" width="13" height="3" x="18.5" y="4.5" overflow="visible"/>
+                <rect style="isolation:auto;mix-blend-mode:normal" width="3" height="3" x="28.5" y="24.5" overflow="visible"/>
+                <rect style="isolation:auto;mix-blend-mode:normal" width="13" height="3" x=".5" y="24.5" overflow="visible"/>
+                <rect style="isolation:auto;mix-blend-mode:normal" width="31" height="3" x=".5" y="14.5" overflow="visible"/>
                 <rect style="isolation:auto;mix-blend-mode:normal" width="12" height="6" x="5" y="3" ry="1" overflow="visible" fill="none" stroke-width="2"/>
                 <rect rx="1" style="isolation:auto;mix-blend-mode:normal" width="12" height="6" x="15" y="23" ry="1" overflow="visible" fill="none" stroke-width="2"/>
             </g>
@@ -51,16 +55,24 @@
                 <path d="M12.866 2.695l.288-.707 1.905.883-.288.707z" stroke-linecap="square" stroke-width="1.241"/>
             </g>
         </symbol>
-        <symbol viewBox="0 0 16 16" id="icon-quiz-pair">
-            <defs>
-                <marker id="a" orient="auto" overflow="visible">
-                    <path d="M1.154 0l-1.73 1v-2l1.73 1z" fill-rule="evenodd" stroke="#000" stroke-width=".2pt"/>
-                </marker>
-            </defs>
-            <g transform="translate(0 -16)" stroke="#000" fill="none">
-                <rect stroke-dasharray="1,1" stroke-dashoffset=".5" rx="3" ry="0" height="8" width="6" y="22.5" x=".5"/>
-                <rect stroke-dashoffset=".5" rx="0" ry="3" height="8" width="6" y="22.5" x="9.5"/>
-                <path marker-end="url(#a)" d="M2.16 19.549s5.5-3.5 11 0" stroke-linecap="round"/>
+        <symbol viewBox="0 0 32 32" width="32" height="32" id="icon-quiz-pair">
+            <g color="#000" stroke="#000">
+                <rect style="isolation:auto;mix-blend-mode:normal" width="1" height="1" x=".5" y="28.5" overflow="visible" stroke-linecap="square"/>
+                <rect style="isolation:auto;mix-blend-mode:normal" width="1" height="1" x="4.5" y="28.5" overflow="visible" stroke-linecap="square"/>
+                <rect style="isolation:auto;mix-blend-mode:normal" width="1" height="1" x="8.5" y="28.5" overflow="visible" stroke-linecap="square"/>
+                <rect style="isolation:auto;mix-blend-mode:normal" width="1" height="1" x="12.5" y="28.5" overflow="visible" stroke-linecap="square"/>
+                <rect style="isolation:auto;mix-blend-mode:normal" width="1" height="1" x="12.5" y="24.5" overflow="visible" stroke-linecap="square"/>
+                <rect style="isolation:auto;mix-blend-mode:normal" width="1" height="1" x="12.5" y="20.5" overflow="visible" stroke-linecap="square"/>
+                <rect style="isolation:auto;mix-blend-mode:normal" width="1" height="1" x="12.5" y="16.5" overflow="visible" stroke-linecap="square"/>
+                <rect style="isolation:auto;mix-blend-mode:normal" width="1" height="1" x="12.5" y="12.5" overflow="visible" stroke-linecap="square"/>
+                <rect style="isolation:auto;mix-blend-mode:normal" width="1" height="1" x="8.5" y="12.5" overflow="visible" stroke-linecap="square"/>
+                <rect style="isolation:auto;mix-blend-mode:normal" width="1" height="1" x="4.5" y="12.5" overflow="visible" stroke-linecap="square"/>
+                <rect style="isolation:auto;mix-blend-mode:normal" width="1" height="1" x=".5" y="12.5" overflow="visible" stroke-linecap="square"/>
+                <rect style="isolation:auto;mix-blend-mode:normal" width="1" height="1" x=".5" y="16.5" overflow="visible" stroke-width="1.1" stroke-linecap="square"/>
+                <rect style="isolation:auto;mix-blend-mode:normal" width="1" height="1" x=".5" y="20.5" overflow="visible" stroke-linecap="square"/>
+                <rect style="isolation:auto;mix-blend-mode:normal" width="1" height="1" x=".5" y="24.5" overflow="visible" stroke-linecap="square"/>
+                <rect style="isolation:auto;mix-blend-mode:normal" width="12" height="16" x="19" y="13" overflow="visible" fill="none" stroke-width="2" stroke-linecap="square"/>
+                <path style="isolation:auto;mix-blend-mode:normal" d="M5 7.027c7.11-5.186 14.428-5.55 22 0" overflow="visible" fill="none" stroke-width="2" stroke-linecap="round"/>
             </g>
         </symbol>
         <symbol viewBox="0 0 16 16" id="icon-quiz-set">
@@ -70,9 +82,11 @@
                 </marker>
             </defs>
             <g stroke="#000">
-                <path fill="none" d="M8.5 6.5h4v5h-4z"/>
-                <path fill="#fff" d="M10.5 9.5h4v5h-4z"/>
-                <path stroke-dashoffset=".5" stroke-dasharray="1, 1" fill="none" d="M1.5 1.5h4v6h-4z"/>
+                <g transform="translate(0 -16)">
+                    <rect height="5" width="4" y="22.5" x="8.5" fill="none"/>
+                    <rect height="5" width="4" y="25.5" x="10.5" fill="#fff"/>
+                    <rect stroke-dashoffset=".5" height="6" width="4" stroke-dasharray="1, 1" y="17.5" x="1.5" fill="none"/>
+                </g>
                 <path marker-end="url(#a)" d="M7.473 17.317s3.888-.472 4.08 3.182" stroke-linecap="round" stroke-width=".537" fill="none" transform="translate(0 -16)"/>
             </g>
         </symbol>
