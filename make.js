@@ -3,7 +3,7 @@ require('shelljs/make')
 const toDefs = require('./src/toDefs')
 
 target.clean = () => {
-  rm('-rf', `${__dirname}/optimized/*`, `${__dirname}/dist/*`)
+  rm('-rf', `${__dirname}/optimized/*`, `${__dirname}/dist/*`, `${__dirname}/docs/dist/*`)
 }
 
 target.assets = () => {
@@ -13,7 +13,7 @@ target.assets = () => {
 
 target.svgo = () => {
   ls('inkscape').forEach(dir => {
-    exec(`./node_modules/.bin/svgo --pretty -f inkscape/${dir} -o optimized/${dir}`)
+    exec(`./node_modules/.bin/svgo  --config="svgo.yml" --pretty -f inkscape/${dir} -o optimized/${dir}`)
   })
 }
 

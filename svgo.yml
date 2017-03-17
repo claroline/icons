@@ -1,0 +1,4 @@
+plugins:
+  # the following optimization sometimes leads to a precison loss
+  # (see for example quiz/pair; this should probably be filed as a bug)
+  - convertShapeToPath: false
