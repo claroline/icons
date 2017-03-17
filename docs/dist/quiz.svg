@@ -1,14 +1,24 @@
 
 <svg xmlns="http://www.w3.org/2000/svg">
     <defs>
-        <symbol viewBox="0 0 16 16" id="icon-quiz-choice">
-            <g stroke="#000" transform="translate(0 -16)" fill="none">
-                <g stroke-width="2">
-                    <path d="M16 19H6M16 24H6M16 29H6"/>
-                </g>
-                <path d="M1.738 18.292l1.175 1.174 2.349-2.348" stroke-width="1.174"/>
-                <ellipse rx="1.611" ry="1.599" cy="23.901" cx="3" stroke-width=".785"/>
-                <ellipse rx="1.611" ry="1.599" cy="28.901" cx="3" stroke-width=".785"/>
+        <symbol viewBox="0 0 32 32" width="32" height="32" id="icon-quiz-choice-2">
+            <g color="#000" stroke="#000">
+                <rect style="isolation:auto;mix-blend-mode:normal" width="18" height="2" x="13" y="7" overflow="visible" stroke-width="2" stroke-linecap="square"/>
+                <rect style="isolation:auto;mix-blend-mode:normal" width="18" height="2" x="13" y="17" overflow="visible" stroke-width="2" stroke-linecap="square"/>
+                <rect style="isolation:auto;mix-blend-mode:normal" width="18" height="2" x="13" y="27" overflow="visible" stroke-width="2" stroke-linecap="square"/>
+                <circle style="isolation:auto;mix-blend-mode:normal" cx="6" cy="18" r="3.25" overflow="visible" fill="none" stroke-width="1.5" stroke-linecap="square"/>
+                <circle style="isolation:auto;mix-blend-mode:normal" cx="6" cy="28" r="3.25" overflow="visible" fill="none" stroke-width="1.5" stroke-linecap="square"/>
+                <path style="isolation:auto;mix-blend-mode:normal" d="M1.7 6.966l2.99 2.632 6.5-7.184" overflow="visible" fill="none" stroke-width="2.7"/>
+            </g>
+        </symbol>
+        <symbol viewBox="0 0 32 32" width="32" height="32" id="icon-quiz-choice">
+            <g color="#000" stroke="#000">
+                <rect style="isolation:auto;mix-blend-mode:normal" width="18" height="2" x="13" y="7" overflow="visible" stroke-width="2" stroke-linecap="square"/>
+                <rect style="isolation:auto;mix-blend-mode:normal" width="18" height="2" x="13" y="17" overflow="visible" stroke-width="2" stroke-linecap="square"/>
+                <rect style="isolation:auto;mix-blend-mode:normal" width="18" height="2" x="13" y="27" overflow="visible" stroke-width="2" stroke-linecap="square"/>
+                <circle style="isolation:auto;mix-blend-mode:normal" cx="6" cy="18" r="3.25" overflow="visible" fill="none" stroke-width="1.5" stroke-linecap="square"/>
+                <circle style="isolation:auto;mix-blend-mode:normal" cx="6" cy="28" r="3.25" overflow="visible" fill="none" stroke-width="1.5" stroke-linecap="square"/>
+                <path style="isolation:auto;mix-blend-mode:normal" d="M1.7 6.966l2.99 2.632 6.5-7.184" overflow="visible" fill="none" stroke-width="2.7"/>
             </g>
         </symbol>
         <symbol viewBox="0 0 32 32" width="32" height="32" id="icon-quiz-cloze">
