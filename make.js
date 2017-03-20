@@ -14,7 +14,7 @@ target.assets = () => {
   cp('-r', './dist', './docs')
 }
 
-target.svgo = () => {
+target.svgclean = () => {
   ls('inkscape').forEach(dir => {
     mkdir('-p', `optimized/${dir}`)
     ls(`inkscape/${dir}`).forEach(icon => {
@@ -38,7 +38,7 @@ target.doc = () => {
 
 target.build = () => {
   target.clean()
-  target.svgo()
+  target.svgclean()
   target.defs()
   target.assets()
   target.doc()
