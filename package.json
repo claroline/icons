@@ -13,6 +13,7 @@
     "browser-sync": "^2.18.8",
     "dot": "^1.1.1",
     "shelljs": "^0.7.6",
+    "svgcleaner": "^0.8.1-1",
     "svgo": "^0.7.2"
   }
 }

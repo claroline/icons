@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -35,16 +35,16 @@
      bordercolor="#000000"
      borderopacity="1"
      objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
+     gridtolerance="5"
+     guidetolerance="5"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1535"
-     inkscape:window-height="876"
+     inkscape:window-width="1855"
+     inkscape:window-height="1056"
      id="namedview3460"
      showgrid="true"
      inkscape:zoom="23.09375"
-     inkscape:cx="6.3083993"
+     inkscape:cx="15.770898"
      inkscape:cy="19.39326"
      inkscape:window-x="65"
      inkscape:window-y="24"
@@ -53,8 +53,8 @@
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
      inkscape:bbox-nodes="true"
-     inkscape:snap-bbox-edge-midpoints="true"
-     inkscape:snap-bbox-midpoints="true">
+     inkscape:snap-bbox-edge-midpoints="false"
+     inkscape:snap-bbox-midpoints="false">
     <inkscape:grid
        type="xygrid"
        id="grid3466"
