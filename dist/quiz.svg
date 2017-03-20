@@ -48,15 +48,15 @@
                 <path d="m-4.2520313 25.642975h18.932318v2h-18.932318z" stroke-width="2.00005698" transform="matrix(.9036224 -.42832996 .4186162 .90816324 0 0)"/>
             </g>
         </symbol>
-        <symbol viewBox="0 0 16 16" id="icon-quiz-open">
-            <g stroke="#000" transform="translate(0 -16)">
-                <g fill="none" stroke-width="2">
-                    <path d="m0 19h10"/>
-                    <path d="m0 24h8"/>
-                    <path d="m0 29h6"/>
-                </g>
-                <path d="m12.066 20.604-3.163 7.772.1763 2.391 1.7577-1.495 3.163-7.772z" fill-rule="evenodd" stroke-width="1.1588"/>
-                <path d="m12.866 18.695.2876-.7067 1.9052.88251-.2876.7067z" stroke-linecap="square" stroke-width="1.2414"/>
+        <symbol height="32" viewBox="0 0 32 32" width="32" id="icon-quiz-open">
+            <g stroke="#000" stroke-linecap="square" stroke-width="2">
+                <path d="m1 25h10v2h-10z"/>
+                <path d="m1 15h14v2h-14z"/>
+                <path d="m1 5h18v2h-18z"/>
+            </g>
+            <g transform="matrix(.38319446 -.92366769 .92366769 .38319446 -10.538078 22.089682)">
+                <path d="m29.101677 26.497034h1.9626539v4.502048h-1.9626539z" stroke="#000" stroke-linecap="square" stroke-width="1.99999988" transform="matrix(.9999992 .0012663 -.00085628157 .99999963 0 0)"/>
+                <path d="m25.853553 31.521242v-5.441942l-17.0662908.0221-5.9887379 2.676774 5.5909903 2.720971z" fill-rule="evenodd" stroke="#000"/>
             </g>
         </symbol>
         <symbol height="32" viewBox="0 0 32 32" width="32" id="icon-quiz-pair">
