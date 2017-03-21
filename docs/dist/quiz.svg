@@ -8,6 +8,13 @@
                 <path d="m19.941433 10.976493 11 11"/>
             </g>
         </symbol>
+        <symbol height="32" viewBox="0 0 32 32" width="32" id="icon-quiz-caption">
+            <g stroke="#000">
+                <path d="m31.496087 31.5v-8.5l-6.456251-6.5-10.429331 10.5-4.469713-4.5-8.939426 9z" fill-rule="evenodd"/>
+                <path d="m1 1v12h14.779432l7.238504-1.781554-.017932-8.4268357-7.177271-1.7916103z" fill="none" stroke-width="2"/>
+                <ellipse cx="17" cy="7" fill="none" rx="2.4000006" ry="2.3999999" stroke-linecap="square" stroke-width="1.20000005"/>
+            </g>
+        </symbol>
         <symbol height="32" viewBox="0 0 32 32" width="32" id="icon-quiz-choice">
             <g stroke="#000">
                 <g stroke-linecap="square">
@@ -33,7 +40,7 @@
         </symbol>
         <symbol height="32" viewBox="0 0 32 32" width="32" id="icon-quiz-graphic">
             <g stroke="#000">
-                <path d="m31.5 31.5v-8.5l-6.5-6.5-10.5 10.5-4.5-4.5-9 9z" fill-rule="evenodd"/>
+                <path d="m31.498534 31.5v-8.5l-6.456252-6.5-10.42933 10.5-4.469713-4.5-8.9394258 9z" fill-rule="evenodd"/>
                 <g stroke-linecap="square" stroke-width="2">
                     <rect height=".025" transform="scale(1 -1)" width="6" x="6" y="-9"/>
                     <rect height=".025" transform="matrix(0 1 1 0 0 0)" width="6" x="6" y="9"/>
