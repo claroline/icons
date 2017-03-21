@@ -1,6 +1,35 @@
 
 <svg xmlns="http://www.w3.org/2000/svg">
     <defs>
+        <symbol height="32" viewBox="0 0 32 32" width="32" id="icon-quiz-boolean-2">
+            <g fill="none" stroke="#000">
+                <rect height="13.999999" stroke-linecap="square" stroke-width="1.99999988" width="12" x="1" y="9"/>
+                <rect height="13.999999" stroke-linecap="square" stroke-width="1.99999988" width="12" x="19" y="9"/>
+                <g stroke-width="2">
+                    <path d="m3.6028634 16.502661 2.7713127 2.094046 4.4357239-5.922869 0 0"/>
+                    <path d="m21.914214 13 6 6"/>
+                    <path d="m27.914214 13-6 6 0 0"/>
+                </g>
+            </g>
+        </symbol>
+        <symbol height="32" viewBox="0 0 32 32" width="32" id="icon-quiz-boolean-4">
+            <g stroke="#000">
+                <g fill="none" stroke-width="3">
+                    <path d="m1.1611368 15.999354 4.5756969 3.845638 8.3023153-9.840434"/>
+                    <path d="m31 10-11.00406 10.960758"/>
+                    <path d="m20 10 11 11"/>
+                </g>
+                <rect height="1" stroke-linecap="square" width="31" x=".5" y="2.5"/>
+                <rect height="1" stroke-linecap="square" width="31" x=".5" y="28.5"/>
+            </g>
+        </symbol>
+        <symbol height="32" viewBox="0 0 32 32" width="32" id="icon-quiz-boolean-5">
+            <g fill="none" stroke="#000" stroke-width="3">
+                <path d="m1.1611368 15.999354 4.5756969 3.845638 8.3023153-9.840434"/>
+                <path d="m31 10-11.00406 10.960758"/>
+                <path d="m20 10 11 11"/>
+            </g>
+        </symbol>
         <symbol height="32" viewBox="0 0 32 32" width="32" id="icon-quiz-choice">
             <g stroke="#000">
                 <g stroke-linecap="square">
