@@ -18,7 +18,7 @@ target.svgclean = () => {
   ls('inkscape').forEach(dir => {
     mkdir('-p', `optimized/${dir}`)
     ls(`inkscape/${dir}`).forEach(icon => {
-      exec(`node_modules/.bin/svgcleaner --indent=2 inkscape/${dir}/${icon} optimized/${dir}/${icon}`)
+      exec(`node_modules/.bin/svgcleaner --indent=2 --convert-shapes=false inkscape/${dir}/${icon} optimized/${dir}/${icon}`)
     })
   })
 }

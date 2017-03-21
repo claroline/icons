@@ -4,33 +4,33 @@
         <symbol height="32" viewBox="0 0 32 32" width="32" id="icon-quiz-choice">
             <g stroke="#000">
                 <g stroke-linecap="square">
-                    <path d="m13 7h18v2h-18z" stroke-width="2"/>
-                    <path d="m13 17h18v2h-18z" stroke-width="2"/>
-                    <path d="m13 27h18v2h-18z" stroke-width="1.99999988"/>
-                    <circle cx="6" cy="18" fill="none" r="3.25" stroke-width="1.50000036"/>
-                    <circle cx="6" cy="28" fill="none" r="3.25" stroke-width="1.50000036"/>
+                    <rect height="2" stroke-width="2" width="18" x="13" y="7"/>
+                    <rect height="2" stroke-width="2" width="18" x="13" y="17"/>
+                    <rect height="2" stroke-width="2" width="18" x="13" y="27"/>
+                    <circle cx="6" cy="18" fill="none" r="3.25" stroke-width="1.5"/>
+                    <circle cx="6" cy="28" fill="none" r="3.25" stroke-width="1.5"/>
                 </g>
-                <path d="m1.7002834 6.9655451 2.9899036 2.6325719 6.500659-7.1837134" fill="none" stroke-width="2.70000005"/>
+                <path d="m1.7002834 6.9655451 2.9899036 2.6325719 6.500659-7.1837134" fill="none" stroke-width="2.7"/>
             </g>
         </symbol>
         <symbol height="32" viewBox="0 0 32 32" width="32" id="icon-quiz-cloze">
             <g stroke="#000" stroke-linecap="square">
-                <path d="m .5 4.5h3v3h-3z"/>
-                <path d="m18.5 4.5h13v3h-13z"/>
-                <path d="m28.5 24.5h3v3h-3z"/>
-                <path d="m .5 24.5h13v3h-13z"/>
-                <path d="m .5 14.5h31v3h-31z"/>
-                <rect fill="none" height="6" ry="1" stroke-width="1.99999988" width="12" x="5" y="3"/>
-                <rect fill="none" height="6" rx="1" stroke-width="1.99999988" width="12" x="15" y="23"/>
+                <rect height="3" width="3" x=".5" y="4.5"/>
+                <rect height="3" width="13" x="18.5" y="4.5"/>
+                <rect height="3" width="3" x="28.5" y="24.5"/>
+                <rect height="3" width="13" x=".5" y="24.5"/>
+                <rect height="3" width="31" x=".5" y="14.5"/>
+                <rect fill="none" height="6" ry="1" stroke-width="2" width="12" x="5" y="3"/>
+                <rect fill="none" height="6" rx="1" stroke-width="2" width="12" x="15" y="23"/>
             </g>
         </symbol>
         <symbol height="32" viewBox="0 0 32 32" width="32" id="icon-quiz-graphic">
             <g stroke="#000">
                 <path d="m31.5 31.5v-8.5l-6.5-6.5-10.5 10.5-4.5-4.5-9 9z" fill-rule="evenodd"/>
-                <g stroke-linecap="square">
-                    <path d="m5.9999995-9.0249996h6v .02499964h-6z" stroke-width="1.99999952" transform="scale(1 -1)"/>
-                    <path d="m6 9h6v .02499964h-6z" stroke-width="1.99999952" transform="matrix(0 1 1 0 0 0)"/>
-                    <ellipse cx="9" cy="9" fill="none" rx="8" ry="7.9999995" stroke-width="1.99999988"/>
+                <g stroke-linecap="square" stroke-width="2">
+                    <rect height=".025" transform="scale(1 -1)" width="6" x="6" y="-9"/>
+                    <rect height=".025" transform="matrix(0 1 1 0 0 0)" width="6" x="6" y="9"/>
+                    <ellipse cx="9" cy="9" fill="none" rx="8" ry="8"/>
                 </g>
             </g>
         </symbol>
@@ -44,52 +44,63 @@
                     <circle cx="28" cy="16" r="3.25"/>
                     <circle cx="28" cy="28" r="3.25"/>
                 </g>
-                <path d="m8 3h16v2h-16z" stroke-width="2"/>
-                <path d="m-4.2520313 25.642975h18.932318v2h-18.932318z" stroke-width="2.00005698" transform="matrix(.9036224 -.42832996 .4186162 .90816324 0 0)"/>
+                <rect height="2" stroke-width="2" width="16" x="8" y="3"/>
+                <rect height="2" stroke-width="2.00005698" transform="matrix(.9036224 -.42832996 .4186162 .90816324 0 0)" width="18.932318" x="-4.2520313" y="25.642975"/>
             </g>
         </symbol>
         <symbol height="32" viewBox="0 0 32 32" width="32" id="icon-quiz-open">
             <g stroke="#000" stroke-linecap="square" stroke-width="2">
-                <path d="m1 25h10v2h-10z"/>
-                <path d="m1 15h14v2h-14z"/>
-                <path d="m1 5h18v2h-18z"/>
+                <rect height="2" width="10" x="1" y="25"/>
+                <rect height="2" width="14" x="1" y="15"/>
+                <rect height="2" width="18" x="1" y="5"/>
             </g>
             <g transform="matrix(.38319446 -.92366769 .92366769 .38319446 -10.538078 22.089682)">
-                <path d="m29.101677 26.497034h1.9626539v4.502048h-1.9626539z" stroke="#000" stroke-linecap="square" stroke-width="1.99999988" transform="matrix(.9999992 .0012663 -.00085628157 .99999963 0 0)"/>
+                <rect height="4.502048" stroke="#000" stroke-linecap="square" stroke-width="1.99999988" transform="matrix(.9999992 .0012663 -.00085628157 .99999963 0 0)" width="1.9626539" x="29.101677" y="26.497034"/>
                 <path d="m25.853553 31.521242v-5.441942l-17.0662908.0221-5.9887379 2.676774 5.5909903 2.720971z" fill-rule="evenodd" stroke="#000"/>
             </g>
         </symbol>
         <symbol height="32" viewBox="0 0 32 32" width="32" id="icon-quiz-pair">
             <g stroke="#000">
                 <g stroke-linecap="square">
-                    <path d="m .5 28.5h1v1h-1z"/>
-                    <path d="m4.5 28.5h1v1h-1z"/>
-                    <path d="m8.5 28.5h1v1h-1z"/>
-                    <path d="m12.5 28.5h1v1h-1z"/>
-                    <path d="m12.5 24.5h1v1h-1z"/>
-                    <path d="m12.5 20.5h1v1h-1z"/>
-                    <path d="m12.5 16.5h1v1h-1z"/>
-                    <path d="m12.5 12.5h1v1h-1z"/>
-                    <path d="m8.5 12.5h1v1h-1z"/>
-                    <path d="m4.5 12.5h1v1h-1z"/>
-                    <path d="m .5 12.5h1v1h-1z"/>
-                    <path d="m .5 16.5h1v1h-1z" stroke-width="1.1"/>
-                    <path d="m .5 20.5h1v1h-1z"/>
-                    <path d="m .5 24.5h1v1h-1z"/>
-                    <path d="m19 13h12v16h-12z" fill="none" stroke-width="2"/>
+                    <rect height="1" width="1" x=".5" y="28.5"/>
+                    <rect height="1" width="1" x="4.5" y="28.5"/>
+                    <rect height="1" width="1" x="8.5" y="28.5"/>
+                    <rect height="1" width="1" x="12.5" y="28.5"/>
+                    <rect height="1" width="1" x="12.5" y="24.5"/>
+                    <rect height="1" width="1" x="12.5" y="20.5"/>
+                    <rect height="1" width="1" x="12.5" y="16.5"/>
+                    <rect height="1" width="1" x="12.5" y="12.5"/>
+                    <rect height="1" width="1" x="8.5" y="12.5"/>
+                    <rect height="1" width="1" x="4.5" y="12.5"/>
+                    <rect height="1" width="1" x=".5" y="12.5"/>
+                    <rect height="1" stroke-width="1.1" width="1" x=".5" y="16.5"/>
+                    <rect height="1" width="1" x=".5" y="20.5"/>
+                    <rect height="1" width="1" x=".5" y="24.5"/>
+                    <rect fill="none" height="16" stroke-width="2" width="12" x="19" y="13"/>
                 </g>
                 <path d="m5.0000094 7.0272534c7.1102506-5.1866626 14.4279716-5.5496417 21.9999996 0" fill="none" stroke-linecap="round" stroke-width="2"/>
             </g>
         </symbol>
-        <symbol viewBox="0 0 16 16" xmlns:xlink="http://www.w3.org/1999/xlink" id="icon-quiz-set">
-            <marker id="a" orient="auto" overflow="visible" refX="0" refY="0">
-                <path d="m5.77 0-8.65 5v-10z" fill-rule="evenodd" stroke="#000" stroke-width="1pt" transform="scale(.2)"/>
-            </marker>
-            <g stroke="#000" transform="translate(0 -16)">
-                <path d="m8.5 22.5h4v5h-4z" fill="none"/>
-                <path d="m10.5 25.5h4v5h-4z" fill="#fff"/>
-                <path d="m1.5 17.5h4v6h-4z" fill="none" stroke-dasharray="1 1" stroke-dashoffset=".5"/>
-                <path d="m7.4733 17.317s3.8879-.47234 4.08 3.182" fill="none" marker-end="url(#a)" stroke-linecap="round" stroke-width=".53746"/>
+        <symbol height="32" viewBox="0 0 32 32" width="32" id="icon-quiz-set">
+            <g stroke="#000">
+                <g stroke-linecap="square">
+                    <rect height="1" width="1" x="2.5" y="2.5"/>
+                    <rect height="1" width="1" x="6.5" y="2.5"/>
+                    <rect height="1" width="1" x="10.5" y="2.5"/>
+                    <rect height="1" width="1" x="2.5" y="6.5"/>
+                    <rect height="1" width="1" x="2.5" y="10.5"/>
+                    <rect height="1" width="1" x="2.5" y="14.5"/>
+                    <rect height="1" width="1" x="10.5" y="14.5"/>
+                    <rect height="1" width="1" x="6.5" y="14.5"/>
+                    <rect height="1" width="1" x="10.5" y="10.5"/>
+                    <rect height="1" width="1" x="10.5" y="6.5"/>
+                    <rect fill="none" height="10" stroke-width="2" width="8" x="21" y="19"/>
+                </g>
+                <path d="m15.040022 2.894116c5.26309.105884 8.329088 2.105884 8.366861 7.0000003l0 0" fill="none" stroke-width="1.20000005"/>
+                <rect height="5" stroke-linecap="square" stroke-width=".99999988" width="1" x="24.5" y="12.5"/>
+                <rect height="1" stroke-linecap="square" stroke-width=".99999994" width="7" x="16.5" y="12.5"/>
+                <rect height="9" stroke-linecap="square" width="1" x="16.5" y="14.5"/>
+                <rect height="1" stroke-linecap="square" width="1" x="18.5" y="22.5"/>
             </g>
         </symbol>
         <symbol viewBox="0 0 16 16" id="icon-quiz-words">
