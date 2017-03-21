@@ -62,6 +62,18 @@
                 <path d="m25.853553 31.521242v-5.441942l-17.0662908.0221-5.9887379 2.676774 5.5909903 2.720971z" fill-rule="evenodd" stroke="#000"/>
             </g>
         </symbol>
+        <symbol height="32" viewBox="0 0 32 32" width="32" id="icon-quiz-ordering">
+            <g stroke="#000">
+                <g stroke-linecap="square">
+                    <rect height="2" stroke-width="1.99999988" width="16" x="15" y="27"/>
+                    <rect height="2.0013549" ry="0" stroke-width="2" width="12" x="15" y="19"/>
+                    <rect height="1.9580517" stroke-width="2" width="8.0175915" x="14.982409" y="11.041948"/>
+                    <rect height="18" stroke-width="2" width="2" x="5" y="3"/>
+                    <rect height="2" stroke-width="2" width="4" x="15" y="3"/>
+                </g>
+                <path d="m5.9999999 29.065972-4.0968836-6.565972h8.1937677z" fill-rule="evenodd" stroke-width=".99999994"/>
+            </g>
+        </symbol>
         <symbol height="32" viewBox="0 0 32 32" width="32" id="icon-quiz-pair">
             <g stroke="#000">
                 <g stroke-linecap="square">
