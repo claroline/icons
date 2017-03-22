@@ -1,0 +1,4 @@
+full: true
+plugins:
+  - removeAttrs:
+      attrs: 'stroke'

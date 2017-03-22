@@ -14,7 +14,7 @@ target.assets = () => {
   cp('-r', './dist', './docs')
 }
 
-target.svgclean = () => {
+target.optimize = () => {
   ls('inkscape').forEach(dir => {
     mkdir('-p', `optimized/${dir}`)
     ls(`inkscape/${dir}`).forEach(icon => {
@@ -28,7 +28,10 @@ target.defs = () => {
     echo(`Writing definition file for ${dir}`)
     const path = `${__dirname}/optimized/${dir}`
     mkdir('-p', `${__dirname}/dist`)
-    toDefs(dir, ls(path).map(file => `${path}/${file}`), `${__dirname}/dist/${dir}.svg`)
+    const file = `${__dirname}/dist/${dir}.svg`
+    toDefs(dir, ls(path).map(file => `${path}/${file}`), file)
+    // it's way quicker to make the SVGO pass here than on individual icon files
+    exec(`node_modules/.bin/svgo --pretty --config=svgo.yml ${file} ${file}`)
   })
 }
 
@@ -38,7 +41,7 @@ target.doc = () => {
 
 target.build = () => {
   target.clean()
-  target.svgclean()
+  target.optimize()
   target.defs()
   target.assets()
   target.doc()

@@ -71,6 +71,8 @@ header nav a:hover {
 .icons svg {
   display: block;
   width: 32px;
+  stroke: #000;
+  fill: #000;
 }
 
 .icon-title {
