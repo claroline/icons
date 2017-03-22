@@ -42,6 +42,11 @@ header nav a:hover {
   text-decoration: none;
 }
 
+svg {
+  stroke: #000;
+  fill: #000;
+}
+
 .icons li {
   list-style: none;
   display: inline-block;
@@ -71,8 +76,6 @@ header nav a:hover {
 .icons svg {
   display: block;
   width: 32px;
-  stroke: #000;
-  fill: #000;
 }
 
 .icon-title {
