@@ -41,6 +41,5 @@ files stored in the *inkscape* directory.
 
 ## TODO
 
-- Find a way to eliminate inline styles (svgo?)
 - Allow to visualize single icons in grid mode
 - Add a playground page to see icon subsets in context
