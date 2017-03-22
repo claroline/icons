@@ -24,8 +24,7 @@ local web server to visualize your changes in context. The following command:
 npm run serve
 ```
 
-will make the documentation available locally at [http://localhost:3000/]
-(http://localhost:3000/) and will rebuild it on each change made to the SVG
+will make the documentation available locally at http://localhost:3000/ and will rebuild it on each change made to the SVG
 files stored in the *inkscape* directory.
 
 ## File structure
