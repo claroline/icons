@@ -20,6 +20,7 @@ target.optimize = () => {
     ls(`inkscape/${dir}`).forEach(icon => {
       exec(`node_modules/.bin/svgcleaner --indent=2 --convert-shapes=false inkscape/${dir}/${icon} optimized/${dir}/${icon}`)
     })
+    exec(`node_modules/.bin/svgo --pretty --config=svgo.yml optimized/${dir}`)
   })
 }
 
@@ -30,8 +31,6 @@ target.defs = () => {
     mkdir('-p', `${__dirname}/dist`)
     const file = `${__dirname}/dist/${dir}.svg`
     toDefs(dir, ls(path).map(file => `${path}/${file}`), file)
-    // it's way quicker to make the SVGO pass here than on individual icon files
-    exec(`node_modules/.bin/svgo --pretty --config=svgo.yml ${file} ${file}`)
   })
 }
 

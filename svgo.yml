@@ -1,4 +1,5 @@
 full: true
 plugins:
+  - removeDimensions: true
   - removeAttrs:
       attrs: 'stroke'
